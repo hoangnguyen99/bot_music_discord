@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "build": "babel src --out-dir dist",
-    "start":" npm run build && node dist/index.js",
+    "start": " npm run build && node dist/index.js",
     "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/hoangnguyen99/bot_music_discord#readme",
   "dependencies": {
+    "@discordjs/builders": "^1.7.0",
     "add": "^2.0.6",
     "discord.js": "^14.14.1",
     "dotenv": "^16.3.1",
